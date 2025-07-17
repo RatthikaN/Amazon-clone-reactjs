@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import { FiSearch } from "react-icons/fi";
 import "./Header.css"; // Optional CSS file
 
 const Header = () => {
@@ -26,11 +27,13 @@ const Header = () => {
 
       </div>
 
-      {/* Center: Search */}
-      <div className="search-bar">
+          <div className="search-bar">
         <input type="text" placeholder="Search Amazon.in" />
-        <button>🔍</button>
+          <button className="search-button">
+           <FiSearch size={18} color="black" />
+         </button>
       </div>
+
 
       {/* Right: Language, Account, Orders, Cart */}
       <div className="header-right">
