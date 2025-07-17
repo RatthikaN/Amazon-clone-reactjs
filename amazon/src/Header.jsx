@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import "./Header.css"; // Optional CSS file
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="header">
       {/* Left: Logo and Location */}
@@ -16,7 +16,7 @@ const Header = () => {
             alt="Amazon"
           />
         </Link>
-
+         </div>
         <div className="location">
       <span style={{ fontSize: "12px", color: "#ccc" }}>Deliver to</span>
       <div style={{ display: "flex", alignItems: "center" }}>
@@ -25,7 +25,7 @@ const Header = () => {
       </div>
     </div>
 
-      </div>
+      
 
           <div className="search-bar">
         <input type="text" placeholder="Search Amazon.in" />
