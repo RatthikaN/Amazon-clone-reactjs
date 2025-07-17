@@ -8,19 +8,19 @@ export const HomeCorousel = () => {
 
   const scrollLeft = () => {
     if (scrollRef.current) {
-      const cardWidth = scrollRef.current.firstChild.firstChild.offsetWidth + 16;
-      scrollRef.current.scrollBy({ left: -cardWidth, behavior: "smooth" });
+      const scrollAmount = scrollRef.current.offsetWidth;
+      scrollRef.current.scrollBy({ left: -scrollAmount, behavior: "smooth" });
     }
   };
 
   const scrollRight = () => {
     if (scrollRef.current) {
-      const cardWidth = scrollRef.current.firstChild.firstChild.offsetWidth + 16;
-      scrollRef.current.scrollBy({ left: cardWidth, behavior: "smooth" });
+      const scrollAmount = scrollRef.current.offsetWidth;
+      scrollRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" });
     }
   };
 
-  const HomeCorousel = [
+  const HomeCarouselData = [
     {
       id: 1,
       cover: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/2025/CC/PC_CC_379X304._SY304_CB546861540_.jpg",
@@ -65,31 +65,28 @@ export const HomeCorousel = () => {
 
   return (
     <div className="carousel-wrapper">
+      <div className="carousel-header">
+        <p>Min. 50% off | Unique home finds | Amazon Brands & more</p>
+        <Link to="/products">See all</Link>
+      </div>
+
       <div className="carousel-container">
-        <div className="carousel-header">
-          <p className="carousel-title">Min. 50% off | Unique home finds | Amazon Brands & more</p>
-          <Link to="/products" className="carousel-link">See all</Link>
-        </div>
+        <button className="arrow left" onClick={scrollLeft}>
+          <MdOutlineKeyboardArrowLeft />
+        </button>
 
-        <div className="carousel-scroll-wrapper">
-          <button className="carousel-arrow left" onClick={scrollLeft}>
-            <MdOutlineKeyboardArrowLeft />
-          </button>
-
-          <div ref={scrollRef} className="carousel-scroll">
-            <div className="carousel-items">
-              {HomeCorousel.map((item) => (
-                <div key={item.id} className="carousel-card">
-                  <img src={item.cover} alt={item.title} className="carousel-image" />
-                </div>
-              ))}
+        <div className="carousel" ref={scrollRef}>
+          {HomeCarouselData.map((item) => (
+            <div className="carousel-card" key={item.id}>
+              <img src={item.cover} alt={item.title} />
+              <p>{item.title}</p>
             </div>
-          </div>
-
-          <button className="carousel-arrow right" onClick={scrollRight}>
-            <MdKeyboardArrowRight />
-          </button>
+          ))}
         </div>
+
+        <button className="arrow right" onClick={scrollRight}>
+          <MdKeyboardArrowRight />
+        </button>
       </div>
     </div>
   );

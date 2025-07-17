@@ -1,0 +1,30 @@
+.cart-toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 500;     /* font-medium */
+}
+
+.toggle-btn {
+  width: 32px;
+  height: 32px;
+  font-size: 1.25rem; /* text-xl */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 9999px; /* rounded-full */
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #f3f4f6; /* hover:bg-gray-100 */
+}
+
+.amount-display {
+  min-width: 24px;
+  text-align: center;
+}
