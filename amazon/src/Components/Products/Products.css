@@ -1,0 +1,38 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .products-container {
+    flex-direction: row;
+    padding: 1.5rem 2rem;
+  }
+}
+
+.products-filter {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .products-filter {
+    width: 25%;
+    margin-bottom: 0;
+  }
+}
+
+.products-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .products-main {
+    width: 75%;
+  }
+}

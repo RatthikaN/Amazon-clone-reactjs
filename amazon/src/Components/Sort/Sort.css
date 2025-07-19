@@ -1,0 +1,62 @@
+.sort-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .sort-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 1.125rem;
+  }
+}
+
+.sort-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.sort-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sort-btn:hover {
+  color: #f59e0b; /* Tailwind's orange-400 */
+}
+
+.sort-count {
+  color: #374151; /* gray-700 */
+}
+
+.sort-form {
+  display: flex;
+}
+
+.sort-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.sort-select {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+}
