@@ -5,7 +5,7 @@ import Order from "./Components/Order/Order";
 import Home from "./Home";
 import { Cart } from "./Components/Cart/Cart";
 import {Products}  from "./Components/Products/Products";
-
+import {SingleProduct} from "./Components/Products/SingleProduct";
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/order" element={<Order />} />
         <Route path="/products" element={<Products/>}/>
+        <Route path="/singleproduct/:id" element={<SingleProduct />} />
       </Routes>
      </Router>
           </>
