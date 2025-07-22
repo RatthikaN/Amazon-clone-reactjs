@@ -1,6 +1,6 @@
 
 import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
-import SignIn from "./Registration/SignIn";
+import {SignIn} from "./Registration/SignIn";
 import Order from "./Components/Order/Order";
 import Home from "./Home";
 import { Cart } from "./Components/Cart/Cart";
