@@ -29,7 +29,8 @@ export const SignIn = () => {
       localStorage.setItem("user", JSON.stringify(result));
       navigate("/");
     } catch (error) {
-      toast.error("No account exists, please create one first!");
+        // console.log(error.code);
+       toast.error("No account exists, please create one first!");
     }
   };
 
