@@ -6,7 +6,7 @@ import { FormatPrice } from "../FormatPrice/FormatPrice";
 import { Images } from "../Images/Images";
 import { AddToCart } from "../Cart/AddToCart";
 import { Layout } from "../Layout/Layout";
-import "./SingleProduct.css"; // 👈 Link to the external CSS
+import "./SingleProduct.css"; 
 
 const API = "https://api.pujakaitem.com/api/products";
 

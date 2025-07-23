@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md
 import { Layout } from "./Components/Layout/Layout";
 import { HomeProductList } from "./HomeProductList";
 import { HomeCorousel } from "./HomeCorousel";
-import "./Home.css"; // 👈 Make sure to create this CSS file
+import "./Home.css"; 
 
 export const Home = () => {
   const HeroList = [

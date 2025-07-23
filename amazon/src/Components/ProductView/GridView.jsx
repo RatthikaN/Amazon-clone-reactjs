@@ -1,6 +1,6 @@
 import React from "react";
 import { Product } from "../Products/Product";
-import "./GridView.css"; // 👈 Link to CSS file
+import "./GridView.css"; 
 
 export const GridView = ({ products }) => {
   return (

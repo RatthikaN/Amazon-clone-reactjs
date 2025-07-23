@@ -58,7 +58,7 @@
 }
 
 .add-btn {
-  background-color: #ffc107; /* yellow */
+  background-color: #ffc107; 
   color: black;
   border: 1px solid #ffc107;
 }
@@ -68,7 +68,7 @@
 }
 
 .buy-btn {
-  background-color: #ff5722; /* orange */
+  background-color: #ff5722;
   color: black;
   border: 1px solid #ff5722;
 }

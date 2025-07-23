@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FormatPrice } from "../FormatPrice/FormatPrice";
-import "./ListView.css"; // 👈 Importing CSS
+import "./ListView.css";
 
 export const ListView = ({ products }) => {
   return (

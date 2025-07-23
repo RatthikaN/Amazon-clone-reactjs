@@ -1,11 +1,11 @@
 .star-container {
   display: flex;
-  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-size: 1.5rem; 
   color: orange;
 }
 
 .review-text {
   margin-top: 0.5rem;
   font-size: 1rem;
-  color: #4b5563; /* Tailwind gray-600 */
+  color: #4b5563; 
 }

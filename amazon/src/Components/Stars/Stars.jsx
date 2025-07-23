@@ -2,7 +2,7 @@ import React from 'react';
 import { IoStar } from "react-icons/io5";
 import { IoStarHalf } from "react-icons/io5";
 import { IoMdStarOutline } from "react-icons/io";
-import './Stars.css'; // Import CSS
+import './Stars.css'; 
 
 export const Stars = ({ stars, reviews }) => {
   const ratingStar = Array.from({ length: 5 }, (elem, index) => {

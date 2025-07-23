@@ -4,8 +4,8 @@
 }
 
 .buy-button {
-  border: 1px solid #facc15; /* yellow-400 */
-  background-color: #facc15; /* yellow */
+  border: 1px solid #facc15; 
+  background-color: #facc15; 
   color: black;
   font-weight: 600;
   padding: 8px;

@@ -12,8 +12,8 @@
 }
 
 .thumbnail-img {
-  height: 5rem;   /* h-20 */
-  width: 5rem;    /* w-20 */
+  height: 5rem;   
+  width: 5rem;    
   object-fit: cover;
   border-radius: 6px;
   cursor: pointer;
@@ -22,15 +22,15 @@
 
 .thumbnail-img:hover {
   transform: scale(1.05);
-  border: 2px solid #facc15; /* yellow-400 */
+  border: 2px solid #facc15;
 }
 
 .main-image-container {
-  margin-top: 2.5rem; /* mt-10 */
+  margin-top: 2.5rem;
 }
 
 .main-img {
-  height: 15rem; /* h-60 */
+  height: 15rem; 
   max-width: 100%;
   object-fit: contain;
   border-radius: 8px;

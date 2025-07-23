@@ -2,7 +2,7 @@ import React from "react";
 import { IoGrid } from "react-icons/io5";
 import { FaThList } from "react-icons/fa";
 import { useFilterContext } from "../../Context/FilterContext";
-import "./Sort.css"; // 👈 Import external CSS
+import "./Sort.css"; 
 
 export const Sort = () => {
   const { setGridView, setListView, filterProducts, sorting } = useFilterContext();

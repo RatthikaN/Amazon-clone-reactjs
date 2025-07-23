@@ -2,7 +2,7 @@ import React from "react";
 import { useProductContext } from "../../Context/ProductContext";
 import { Layout } from "../Layout/Layout";
 import { FormatPrice } from "../FormatPrice/FormatPrice";
-import "./Order.css"; // Import the CSS
+import "./Order.css"; 
 
 const Order = () => {
   const userData = JSON.parse(localStorage.getItem("user"));

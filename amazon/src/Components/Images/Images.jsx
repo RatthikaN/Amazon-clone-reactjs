@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Images.css"; // Import external CSS
+import "./Images.css"; 
 
 export const Images = ({ Imgs = [{ url: "" }] }) => {
   const [mainImage, setMainImage] = useState(Imgs[0]);

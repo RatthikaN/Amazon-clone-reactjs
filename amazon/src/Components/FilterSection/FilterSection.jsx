@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosCheckmark } from "react-icons/io";
 import { useFilterContext } from "../../Context/FilterContext";
-import "./FilterSection.css"; // 👈 Importing CSS
+import "./FilterSection.css"; 
 
 export const FilterSection = () => {
   const {

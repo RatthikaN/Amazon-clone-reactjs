@@ -3,7 +3,7 @@ import { FormatPrice } from "../FormatPrice/FormatPrice";
 import { CartToggleAmount } from "./CartToggleAmount";
 import { MdDelete } from "react-icons/md";
 import { useCartContext } from "../../Context/CartContext";
-import "./CartItem.css"; // Importing the CSS
+import "./CartItem.css"; 
 
 export const CartItem = ({ id, name, image, price, amount, color }) => {
   const { removeItem, setIncrement, setDecrement } = useCartContext();

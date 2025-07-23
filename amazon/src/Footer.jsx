@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import amazon_logo from "./assets/amazon_logo.png"; // make sure the path is correct
-import "./Footer.css"; // Import the plain CSS
+import amazon_logo from "./assets/amazon_logo.png"; 
+import "./Footer.css"; 
 
 export const Footer = () => {
   const backtotop = () => window.scrollTo({ top: 0, behavior: "smooth" });

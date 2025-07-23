@@ -39,7 +39,7 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 16px;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none; 
 }
 
 .carousel::-webkit-scrollbar {

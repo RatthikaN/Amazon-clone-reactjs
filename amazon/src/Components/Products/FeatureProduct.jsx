@@ -1,7 +1,7 @@
 import React from 'react';
 import { useProductContext } from '../../Context/ProductContext';
 import { Product } from './Product';
-import './FeatureProduct.css'; // ← Import the CSS
+import './FeatureProduct.css'; 
 
 export const FeatureProduct = () => {
   const { isLoading, featureProducts } = useProductContext();

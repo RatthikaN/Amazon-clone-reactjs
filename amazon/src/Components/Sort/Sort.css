@@ -1,3 +1,4 @@
+
 .sort-container {
   display: flex;
   flex-direction: column;
@@ -30,12 +31,14 @@
   transition: color 0.3s;
 }
 
+
+
 .sort-btn:hover {
-  color: #f59e0b; /* Tailwind's orange-400 */
+  color: #f59e0b; 
 }
 
 .sort-count {
-  color: #374151; /* gray-700 */
+  color: #374151; 
 }
 
 .sort-form {
@@ -48,7 +51,7 @@
   gap: 0.5rem;
   background-color: white;
   padding: 0.5rem;
-  border: 1px solid #d1d5db; /* gray-300 */
+  border: 1px solid #d1d5db; 
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
