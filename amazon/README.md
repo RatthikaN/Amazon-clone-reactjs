@@ -1,12 +1,23 @@
-# React + Vite
+# 🛒 Amazon Clone (React + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional Amazon Clone web application built using **React**, **Firebase Authentication**, and **Firestore**. It supports user authentication, product browsing, cart management, and a responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 User Sign Up / Sign In (Firebase Auth)
+- 📦 Product Listing and Details
+- 🛒 Add to Cart and Checkout Flow
+- 💾 Persistent Cart with localStorage
+- 🔍 Search Bar for Products
+- 🔄 Fully Responsive Layout
+- 🔒 Firestore integration for storing user data
+- 🔙 Scroll-to-Top Button
+- ✅ Toast notifications for success/error feedback
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Used -Reactjs,CSS,firebase,razorpay
+
+Descrip:
+Allow usage of the card number 4111 1111 1111 1111 for testing purposes.
+Enhance the user experience by adding responsiveness to the Razorpay payment gateway.
+
